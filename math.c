@@ -54,28 +54,28 @@ if(!strcmp(argv[1], "help"))
       if(!strcmp(argv[1], "-m"))
   {
  double res = atof(argv[2]) * atof(argv[3]); // <---
-      printf("Result: %f", res );
+      printf("%f\n", res);
       }
       if(!strcmp(argv[1], "-d"))
   {
  double res = atof(argv[2]) / atof(argv[3]); // <---
-      printf("Result: %f", res );
+      printf("%f\n", res);
       }
             if(!strcmp(argv[1], "-a"))
   {
  double res = atof(argv[2]) + atof(argv[3]); // <---
-      printf("Result: %f", res );
+      printf("%f\n", res);
       }
             if(!strcmp(argv[1], "-s"))
   {
  double res = atof(argv[2]) - atof(argv[3]); // <---
-      printf("Result: %f", res );
+      printf("%f\n", res);
       }
 
             if(!strcmp(argv[1], "-sqrt"))
   {
       double res = sqrt(atoi(argv[2]));
- printf("Result:%f", res );
+ printf("%f\n", res);
       }
 
       if(!strcmp(argv[1], "-v"))
